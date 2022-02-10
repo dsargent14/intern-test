@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    font-family: poppins;
+    font-size: 30px;
+}
+
+.outer {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+#ul {
+    margin: 0;
+    padding: 0;
+}
+
+.File {
+    cursor: pointer;
+    user-select: none;
+}
+
+.File::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.File-down::before {
+    transform: rotate(90deg);
+}
+
+.SubFile {
+    display: none;
+}
+
+.active {
+    display: block;
+}
