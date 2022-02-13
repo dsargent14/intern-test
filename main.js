@@ -7,5 +7,5 @@ for (index = 0; index < dropDown.length; index++) {
     dropDown[index].addEventListener("click", function() {
         this.parentElement.querySelector(".SubFile").classList.toggle("active");
         this.classList.toggle("File-down");
-    });
+    });;
 }
