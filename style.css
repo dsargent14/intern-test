@@ -42,3 +42,20 @@ ul {
 .active {
     display: block;
 }
+
+h6 {
+    display: inline-block;
+    color: grey;
+}
+
+.date {
+    margin-left: 550px;
+}
+
+.size {
+    margin-left: 25px;
+}
+
+.name {
+    margin-left: 100px;
+}
