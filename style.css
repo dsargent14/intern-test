@@ -2,6 +2,8 @@
 body {
     font-family: poppins;
     font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .outer {
@@ -58,4 +60,12 @@ h6 {
 
 .name {
     margin-left: 100px;
+}
+
+h1 {
+    border-bottom: 1px solid grey;
+}
+
+hr {
+    border-bottom: 1px solid grey;
 }
